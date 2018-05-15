@@ -1,0 +1,20 @@
+import turtle
+wn = turtle.Screen()
+turtle.pensize(20)
+for x in range (1):
+     turtle.right(90)
+     turtle.forward(20)
+     turtle.left(90)
+     turtle.forward(50)
+     turtle.left(90)
+     turtle.forward(100)
+turtle.penup()
+turtle.right(90)
+turtle.forward(50)
+turtle.pendown()
+for y in range (1):
+     turtle.forward(100)
+     turtle.right(180)
+     turtle.forward(50)
+     turtle.left(90)
+     turtle.forward(100)
